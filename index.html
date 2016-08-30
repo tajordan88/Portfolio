@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Jordan Ta">
+    <!--<link rel="shortcut icon" href="docs-assets/ico/favicon.png">-->
+
+    <title>Jordan Ta's Portfolio</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.css" rel="stylesheet">
+
+    <!--[if lt IE 9]><script src="docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Jordan Ta's Portfolio</a>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="https://www.linkedin.com/pub/jordan-ta/75/380/a1a">About</a></li>
+                <li><a href="#contact" data-toggle="modal">Contact</a></li>
+                <!--
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li class="divider"></li>
+                    <li class="dropdown-header">Nav header</li>
+                    <li><a href="#">Separated link</a></li>
+                    <li><a href="#">One more separated link</a></li>
+                  </ul>
+                </li>
+                -->
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active">
+          <img data-src="holder.js/900x500/auto/#666:#7a7a7a/text:Hello," alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Welcome to Jordan Ta's Portfolio.</h1>
+              <p>Feel free to look around!</p>
+              <p><a class="btn btn-lg btn-primary" href="#feat1" role="button">Browse Examples</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Resume" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>View my resume here.</h1>
+              <p></p>
+              <p><a class="btn btn-lg btn-primary" href="https://www.linkedin.com/pub/jordan-ta/75/380/a1a" role="button">Resume</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Contact Me" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Contact me here!</h1>
+              <p></p>
+              <p><a class="btn btn-lg btn-primary" href="#contact" role="button" data-toggle="modal">Contact Me</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div><!-- /.carousel -->
+
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <!--
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="img-circle" data-src="holder.js/140x140" alt="Generic placeholder image">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-lg-4">
+          <img class="img-circle" data-src="holder.js/140x140" alt="Generic placeholder image">
+          <h2>Heading</h2>
+          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-lg-4">
+          <img class="img-circle" data-src="holder.js/140x140" alt="Generic placeholder image">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
+      </div>
+      --><!-- /.row -->
+
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-4">
+          <h2 class="featurette-heading">Acts2Fellowship Riverside Main Page. <!--<span class="text-muted">Website 1.</span>--></h2>
+          <p class="lead">This was one of my first projects a couple years back when I was first learning to code. I worked with the organization acts2fellowship to assist in building their main page for their Riverside branch. I first built a version laying out the site with raw HTML and CSS from the ground up. Then I built it using the Bootstrap Framework 2.0, and sent it into the team. Here is a recent picture of the design that's still used today.</p>
+        </div>
+        <div class="col-md-8">
+          <a name="feat1" href="http://www.acts2fellowship.org/riverside/"><img class="featurette-image img-responsive" src="img/a2frside.png"></a>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-8">
+          <a href="http://jordantadesigns.com/a2fsplash/"><img class="featurette-image img-responsive" src="img/a2fsplash.png"></a>
+        </div>
+        <div class="col-md-4">
+          <h2 class="featurette-heading">Acts2Fellowship Splash Page. <!--<span class="text-muted">Website 1.</span>--></h2>
+          <p class="lead">This is a recent project I built with acts2fellowship. Full screen HD pictures. Built it from the ground up. First built it with HTML and CSS and then converted it to PHP to loop some of the excess code - and for fun. Best of all, it's mobile responsive.</p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-4">
+          <h2 class="featurette-heading">LA Dog Rescue. <!--<span class="text-muted">Website 1.</span>--></h2>
+          <p class="lead">This is a recent project I built from the ground up to brush up on my HTML and CSS skills.</p>
+        </div>
+        <div class="col-md-8">
+          <a href="http://jordantadesigns.com/DogRescue/"><img class="featurette-image img-responsive" src="img/LADogRescue1.png"></a>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-8">
+          <a href="http://jordantadesigns.com/ImageSampler/"><img class="featurette-image img-responsive" src="img/ImageSampler.png"></a>
+        </div>
+        <div class="col-md-4">
+          <h2 class="featurette-heading">Image Sample Template. <!--<span class="text-muted">Website 1.</span>--></h2>
+          <p class="lead">Built this one from scratch as an image sample template. It was also to play around with gradients. The bottom of each image box has a slight shade from bottom to top to highlight each respective photo.</p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2015 Jordan Ta <!-- &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a> -->
+        </p> 
+      </footer>
+
+    </div><!-- /.container -->
+
+
+
+    <!-- MODAL -->
+    <div class="modal fade" id="contact" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <form class="form-horizontal">
+            <div class="modal-header">
+              <h4>Contact Jordan Ta</h4>
+            </div>
+            <div class="modal-body">
+              <div class="form-group">
+                <label for="contact-name" class="col-lg-2 control-label">Name:</label>
+                <div class="col-lg-10">
+                  <input type="text" class="form-control" id="contact-name" placeholder="Full Name">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="contact-email" class="col-lg-2 control-label">Email:</label>
+                <div class="col-lg-10">
+                  <input type="email" class="form-control" id="contact-email" placeholder="you@example.com">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="contact-message" class="col-lg-2 control-label">Message:</label>
+                <div class="col-lg-10">
+                  <textarea class="form-control" rows="8"></textarea>
+                </div>
+              </div>
+
+
+            </div>
+            <div class="modal-footer">
+              <a class="btn btn-default" data-dismiss="modal">Close</a>
+              <button class="btn btn-primary" type="submit">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+    <script src="docs-assets/js/holder.js"></script>
+  </body>
+</html>
