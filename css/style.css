@@ -1446,7 +1446,7 @@ px      68    160    252    344    436    */
     height: 100px;
 }
 
-#contactLink:hover {
+.contactLink:hover {
   cursor: pointer;
 }
 
