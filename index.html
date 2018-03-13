@@ -67,7 +67,7 @@
                         <ul class="nav navbar-nav navbar-right">
                             <li><a href="index.html">Home</a></li>
                             <li><a href="https://www.linkedin.com/in/jordan-ta" target="_blank">LinkedIn</a></li>
-                            <li><a href="contact.html">Contact</a></li>
+                            <li><a id="contactLink" data-toggle="modal" data-target="#contactModal">Contact</a></li>
                         </ul>
                     </div>
                 </nav>
@@ -590,6 +590,36 @@ Portfolio Section Start
             Modal Section Start
             ================================================== -->
 
+            <!-- Modal -->
+            <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="contactModalLabel">Contact Me!</h4>
+                  </div>
+                  <div id="contact-section-front" class="modal-body">
+                    <div class="row address-details">
+                        <div class="col-md-6">
+                            <div class="email wow fadeInLeft" data-wow-duration="500ms" data-wow-delay=".3s">
+                                <i class="ion-ios-email-outline"></i>
+                                <p>tajordan88@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="phone wow fadeInLeft" data-wow-duration="500ms" data-wow-delay=".5s">
+                                <i class="ion-ios-telephone-outline"></i>
+                                <p>661 932 6590</p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
 
 
 
