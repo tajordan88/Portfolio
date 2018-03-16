@@ -1514,3 +1514,30 @@ px      68    160    252    344    436    */
   line-height: 1.4;
 }
 
+/*
+
+@media only screen and (min-width: 1200px) {
+  figure .buttons {
+      top: 45%;
+      left: 24%;
+  }
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1999px) {
+  figure .buttons {
+      top: 45%;
+      left: 17%;
+  }
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  figure .buttons {
+      top: 45%;
+      left: 24%;
+  }
+}*/
+
+
